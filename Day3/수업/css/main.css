@@ -1,0 +1,15 @@
+h1{
+    font-size: 20px;
+    color: red;
+}
+.menu{
+    font-size: 10px;
+    color: blue;
+}
+.container{
+    width : 300px;
+    height : 150px;
+    margin : 20px;
+    padding :10px;
+    background-color: cornflowerblue;
+}
