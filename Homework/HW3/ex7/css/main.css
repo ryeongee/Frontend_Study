@@ -1,0 +1,13 @@
+.container{
+
+  background-color: pink;
+  width: 300px;
+  height: 300px;
+  overflow: scroll;
+}
+.box{
+  white-space: pre-line;
+  background-color: green;
+  width: 200px;
+  height: 400px;
+}
