@@ -45,6 +45,7 @@ section {
 .news-item {
   background: yellowgreen;
   padding-left: 130px;
+  position: relative;
 }
 .news-item-heading {
   font-weight: 700;
@@ -62,14 +63,23 @@ section {
   text-overflow: ellipsis;
 }
 .news-item-thumbnail {
-  float: left;
-  position: relative;
-  left: -130px;
-  top: -130px;
-  transform: translate(0px, 50%);
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translate(0px, -41px);
   width: 120px;
 }
+/* 문제 2 */
+.float-container {
+    width: 100%;
+    overflow: hidden;
+}
 
+.float-item {}
+
+.news-link2 {
+    float: left;
+}
 /* 문제 3 */
 .flex-container {
   background: yellowgreen;
