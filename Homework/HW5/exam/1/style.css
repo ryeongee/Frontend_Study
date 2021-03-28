@@ -11,6 +11,8 @@ ul {
   width: 500px;
   background-color: #dfdfdf;
   /* 코드 작성 */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -24,13 +26,61 @@ ul {
 }
 
 /* 추가 CSS 코드 작성 */
-
+.nav .navcontainer {
+  height: 65px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navcontainer .menu {
+  text-align:center;
+  width: 60px;
+  height: 25px;
+  background-color: orange;
+}
 .sign {
   width: 100%;
+  /* 추가 CSS 코드 작성 */
+
 }
-
-/* 추가 CSS 코드 작성 */
-
+.signin {
+  width: 65px;
+  height: 15px;
+  position: absolute;
+  left: 20px;
+  background-color: #dfdfdf;
+}
+.signinbox{
+  margin: 2px;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px groove white;
+}
+.idbox {
+  display: flex;
+  height: 30px;
+  width: 185px;
+  background-color: skyblue;
+  justify-content: center;
+  align-items: center;
+}
+.pwbox {
+  display: flex;
+  height: 30px;
+  width: 200px;
+  background-color: skyblue;
+  justify-content: center;
+  align-items: center;
+}
+.inputbox{
+  border: 1px double lightGrey;
+  width: 130px;
+  height: 20px;
+  background-color:white;
+}
 .main,
 .aside {
   height: 300px;
@@ -41,6 +91,7 @@ ul {
   width: 350px;
   padding: 10px;
   /* 코드 작성 */
+  display: inline-flex;
 }
 
 section {
