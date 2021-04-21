@@ -28,12 +28,20 @@ export default App;*/
 
 // export default App;
 
-import Counter from './Counter';
+// import Counter from './Counter';
+
+// const App = () => {
+//   return (
+//     <Counter />
+//   );
+// };
+
+// export default App;
+
+import Say from "./Say"
 
 const App = () => {
-  return (
-    <Counter />
-  );
+  return <Say/>;
 };
 
 export default App;
