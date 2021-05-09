@@ -1,0 +1,13 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react-redux": "^7.1.16",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
