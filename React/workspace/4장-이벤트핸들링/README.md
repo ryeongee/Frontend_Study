@@ -4,16 +4,16 @@
 
 ## `1. 이벤트 실습 환경 테스트`
 
-- ### ./event-handling-tutorial/src/practice/EventPractice.js
+- ### [./event-handling-tutorial/src/practice/EventPractice.js](https://github.com/ryeongee/Frontend_Study/blob/main/React/workspace/4%EC%9E%A5-%EC%9D%B4%EB%B2%A4%ED%8A%B8%ED%95%B8%EB%93%A4%EB%A7%81/event-handling-tutorial/src/practice/EventPractice.js)
 
 ## `2. onChange, onClick 이벤트 실습`
 
-- ### ./event-handling-tutorial/src/practice/OnChangePractice.js
+- ### [./event-handling-tutorial/src/practice/OnChangePractice.js](https://github.com/ryeongee/Frontend_Study/blob/main/React/workspace/4%EC%9E%A5-%EC%9D%B4%EB%B2%A4%ED%8A%B8%ED%95%B8%EB%93%A4%EB%A7%81/event-handling-tutorial/src/practice/OnChangePractice.js)
 
 ## `3. input 여러 개일 때 이벤트 처리 실습`
 
-- ### ./event-handling-tutorial/src/practice/MultipleInputsPractice.js
+- ### [./event-handling-tutorial/src/practice/MultipleInputsPractice.js](https://github.com/ryeongee/Frontend_Study/blob/main/React/workspace/4%EC%9E%A5-%EC%9D%B4%EB%B2%A4%ED%8A%B8%ED%95%B8%EB%93%A4%EB%A7%81/event-handling-tutorial/src/practice/MultipleInputsPractice.js)
 
 ## `4. onKeyPress 이벤트 실습`
 
-- ### ./event-handling-tutorial/src/practice/OnKeyPressPractice.js
+- ### [./event-handling-tutorial/src/practice/OnKeyPressPractice.js](https://github.com/ryeongee/Frontend_Study/blob/main/React/workspace/4%EC%9E%A5-%EC%9D%B4%EB%B2%A4%ED%8A%B8%ED%95%B8%EB%93%A4%EB%A7%81/event-handling-tutorial/src/practice/OnKeyPressPractice.js)
