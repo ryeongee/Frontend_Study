@@ -1,0 +1,5 @@
+- ## 4장 이벤트 핸들링 실습
+- ### 이벤트 실습 환경 생성 - practice/EventPractice.js
+- ### onChange 이벤트 실습 - practice/OnChangePractice.js
+- ### input 여러 개일 때 이벤트 처리 실습 - practice/MultipleInputsPractice.js
+- ### onKeyPress 이벤트 실습 - practice/OnKeyPressPractice.js
