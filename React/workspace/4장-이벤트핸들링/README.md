@@ -2,18 +2,18 @@
 
 ## 목록
 
-## `이벤트 실습 환경 생성`
+## `1. 이벤트 실습 환경 테스트`
 
-- ### ../event-handling-tutorial/src/practice/EventPractice.js
+- ### ./event-handling-tutorial/src/practice/EventPractice.js
 
-## `onChange 이벤트 실습`
+## `2. onChange, onClick 이벤트 실습`
 
-- ### ../event-handling-tutorial/src/practice/OnChangePractice.js
+- ### ./event-handling-tutorial/src/practice/OnChangePractice.js
 
-## `input 여러 개일 때 이벤트 처리 실습`
+## `3. input 여러 개일 때 이벤트 처리 실습`
 
-- ### ../event-handling-tutorial/src/practice/MultipleInputsPractice.js
+- ### ./event-handling-tutorial/src/practice/MultipleInputsPractice.js
 
-## `onKeyPress 이벤트 실습`
+## `4. onKeyPress 이벤트 실습`
 
-- ### ../event-handling-tutorial/src/practice/OnKeyPressPractice.js
+- ### ./event-handling-tutorial/src/practice/OnKeyPressPractice.js
