@@ -1,5 +1,6 @@
 // 원과 직사각형의 넓이 구함
 const readline = require('readline');
+
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -32,5 +33,4 @@ rl.question(
             rl.close();
     }
     }
-); 
-
+);
