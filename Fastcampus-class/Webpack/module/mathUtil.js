@@ -17,7 +17,9 @@ const getCircleArea = r => r * r * PI;
 //     PI,
 //     getCircleArea
 // }
+
 //2 import 쓰는 법
+
 export default{
     PI,
     getCircleArea
