@@ -8,10 +8,6 @@
     text-indent: -9999px;
 }
 
-/* p:focus{
-    text-indent: +9999px;
-} */
-
 .login__container {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -85,11 +81,4 @@ input:focus{
     border: 3px solid rgb(5, 104, 197);
     border-radius: 5px;
     outline-style:none;
-    /* outline: 3px solid rgb(5, 104, 197);
-    outline-style: outset;  */
 }
-
-/* .login__button:focus{
-    background-color: greenyellow;
-    border: 3px solid rgb(5, 104, 197); 
-} */
