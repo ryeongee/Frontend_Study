@@ -65,6 +65,11 @@
     border-radius: 3px;
 }
 
+.login__button:focus{
+    border: 3px solid rgb(5, 104, 197);
+    border-radius: 5px;
+    outline-style:none;
+}
 
 input{
     width: 260px;
