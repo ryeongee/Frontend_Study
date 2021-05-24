@@ -45,8 +45,6 @@
     left:21px;
 }
 
-#input__pw:focus ~ #warning { text-indent:0; }
-
 .pw__container{
     position: relative;
     width:100%;
