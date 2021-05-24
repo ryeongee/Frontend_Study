@@ -6,15 +6,16 @@ const warning_word = document.getElementById('warning');
 
 login_pw.addEventListener('keyup', function(){
     var check = /^(?=.*[a-zA-Z])(?=.*[0-9]).{8,20}$/.test(login_pw.value);
+
     if( check && login_id.value !== ""){
-        activate_LoginBtn();
+        activation_LoginBtn();
     }
     else {
-        deActivate_LoginBtn();
+        deActivation_LoginBtn();
     }
 });
 
-function activate_LoginBtn(){
+function activation_LoginBtn(){
     class_login.style.color = "black";        
     class_login.style.backgroundColor = "greenyellow";
     class_login.style.cursor = "pointer";
@@ -22,26 +23,20 @@ function activate_LoginBtn(){
     class_login.addEventListener('click', open_arlert);  
 }
 
-function deActivate_LoginBtn(){
+function deActivation_LoginBtn(){
     class_login.style.color = "rgb(82, 81, 81)";
     class_login.style.backgroundColor = "gray";
     class_login.style.cursor = "default";
     warning_word.style.textIndent = "0";   
+    class_login.addEventListener('click', function(){});
 }
 
-function open_arlert(){
-    msg = login_id.value+"님 어서오세요";
-    console.log(msg);
-    alert(msg);
-}
+function open_arlert(){    
+    var check2 = /^(?=.*[a-zA-Z])(?=.*[0-9]).{8,20}$/.test(login_pw.value);
 
-// function open_alert() {
-//     const element_id = document.getElementById('input__id').value;
-//     const element_pw = document.getElementById('input__pw').value;
-//     const class_login = document.getElementById('log_btn');
-//     console.log(element_id.length, element_pw.length);
-//     if (element_id.length>1 && (element_pw.length>7 && element_pw.length<21)){
-//         msg = element_id+"님 어서오세요";
-//         alert(msg);
-//     }
-// }
+    if( check2 && login_id.value !== ""){
+        msg = login_id.value+"님 어서오세요";
+        console.log(msg);
+        alert(msg);
+    }
+}
