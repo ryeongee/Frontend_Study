@@ -35,7 +35,7 @@ function open_arlert(){
     var check2 = /^(?=.*[a-zA-Z])(?=.*[0-9]).{8,20}$/.test(login_pw.value);
 
     if( check2 && login_id.value !== ""){
-        msg = login_id.value+"님 어서오세요";
+        var msg = login_id.value+"님 어서오세요";
         console.log(msg);
         alert(msg);
     }
